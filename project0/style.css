@@ -1,0 +1,55 @@
+#header {
+background:#3259cd;
+width:6%;
+}
+#list {
+  list-style:sqr;
+}
+.headers {
+  font-weight: bold;
+  font-size: 24px;
+}
+.intro {
+  font-weight: lighter;
+}
+.table {
+  width: 40%;
+  height: 103px;
+  border-collapse: collapse;
+  border-color: #3259cd;
+  margin: auto;
+  padding: inherit;
+}
+
+.top {
+
+}
+hr {
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+
+#body2 {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  min-height: 100vh
+}
+
+* {
+    font-size: 11px;
+}
+
+button {
+  padding: 3px;
+}
+
+  @font-face {
+    font-family: sans-serif,Arial;
+  }
+  a:visited {
+    color: red;
+  }
